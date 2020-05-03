@@ -1,0 +1,11 @@
+﻿$day-size: 100px;
+$cell-gap: 1px;
+$month-days: 28, 29, 30, 31;
+$start-day: (
+  mon: 0, tue: $day-size + $cell-gap,
+  wed: ($day-size + $cell-gap) * 2,
+  thu: ($day-size + $cell-gap) * 3,
+  fri: ($day-size + $cell-gap) * 4,
+  sat: ($day-size + $cell-gap) * 5,
+  sun: ($day-size + $cell-gap) * 6
+);
