@@ -1,6 +1,6 @@
 ﻿$day-size: 100px;
 $cell-gap: 1px;
-$month-days: 28, 29, 30, 31;
+$month-days: 28, 29, 30;
 $start-day: (
   mon: 0, tue: $day-size + $cell-gap,
   wed: ($day-size + $cell-gap) * 2,
